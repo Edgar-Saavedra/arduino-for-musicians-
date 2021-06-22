@@ -1,8 +1,8 @@
 ## arduino-cli
 - [compiling](https://arduino.github.io/arduino-cli/latest/commands/arduino-cli_compile/)
-    - `$ arduino-cli compile -b arduino:avr:uno /home/user/Arduino/MySketch`
+    - `$ arduino-cli compile --fqbn=arduino:avr:uno --port=/dev/cu.usbmodem144301 ch4/metronome-4.2/metronome-4.2.ino;`
 - [uploading](https://arduino.github.io/arduino-cli/latest/commands/arduino-cli_upload/)
-    - `$  arduino-cli upload /home/user/Arduino/MySketch`
+    - `$  arduino-cli upload --fqbn=arduino:avr:uno --port=/dev/cu.usbmodem144301 ch4/metronome-4.2/metronome-4.2.ino`
 - [getting board info](https://arduino.github.io/arduino-cli/latest/commands/arduino-cli_board/)
     - `$ arduino-cli board list`
     - ```--additional-urls strings   Comma-separated list of additional URLs for the Boards Manager.
@@ -17,3 +17,5 @@
     - `$ arduino-cli board listall [boardname] [flags]`
     - List all known boards and their corresponding FQBN.
 
+## Troubleshooting
+- Some ports have issues uploading; disconnect and reconnect; reset button; make sure correct "Fully Qualified Board Name" (fqbn); Make sure correct port (`$ arduino-cli board list`); pin `A0` connected can give issues.
