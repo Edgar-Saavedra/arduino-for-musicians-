@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrisp",
+    "sketch": "ch4/metronome-4.1/metronome-4.1.ino",
+    "port": "/dev/tty.usbmodem143301"
+}
