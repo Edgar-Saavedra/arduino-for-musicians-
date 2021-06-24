@@ -34,6 +34,11 @@
     - The second piece of information we need is the baud rate (number of bits per second) of the serial connection to the board. This is specified within our sketch with the Serial.begin(9600);
     - `$ screen <port> <baud>`
     - To disconnect the screen utility, press CTRL-a followed by CTRL-\ and then press y at the prompt asking if you really want to quit.
+- [Locating Configurations](https://arduino.github.io/arduino-cli/0.18/configuration/#configuration-keys)
+    - `$ arduino-cli config dump --verbose`
+- INSTALLING LIBRARY:
+    - `$ arduino-cli lib search --names "MIDI I/Os for Arduino"`
+
 
 ## Troubleshooting
 - Some ports have issues uploading; disconnect and reconnect; reset button; make sure correct "Fully Qualified Board Name" (fqbn); Make sure correct port (`$ arduino-cli board list`); pin `A0` connected can give issues.

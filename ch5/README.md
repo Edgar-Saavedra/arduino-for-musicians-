@@ -155,3 +155,15 @@
             - Differe type of SysEX messages
             - 2 ypes: Real Time and Non-Real Time
             - Non-Real time example: initiating a sample dump or turning Downloadable Sounds on/off
+## MIDI Libraries
+- [Arduino MIDI Library](https://github.com/FortySevenEffects/arduino_midi_library)
+
+
+https://www.instructables.com/Send-and-Receive-MIDI-with-Arduino/
+https://www.instructables.com/Scripting-Processing-with-MIDI/
+https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all
+http://www.smallbutdigital.com/projects/themidibus/
+https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-midi-output-using-an-arduino/
+https://bvavra.github.io/MIDI_Accordion/sending-midi/
+https://help.ableton.com/hc/en-us/articles/209774225-Setting-up-a-virtual-MIDI-bus
+https://www.youtube.com/watch?v=zZXCA7Eh0sk
